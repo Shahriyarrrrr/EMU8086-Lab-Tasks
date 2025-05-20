@@ -1,0 +1,14 @@
+On the given program lower to upper is already implemented. add lower to upper.
+Sample Input and output:
+Enter a letter: G
+Converted letter: g
+
+Enter a letter: h
+Converted letter: H
+
+Enter a letter: 7
+Converted letter: 7
+
+Take an input character from user. Check it for number and find whether it is odd or even using TEST instruction.
+Input a hexadecimal number and set the lower 4 bits to 0. Display the result.
+Take two characters from user input. Use XOR to determine if they are equal. If they are equal, display “Equal”, otherwise “Not Equal”.
