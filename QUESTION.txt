@@ -1,14 +1,34 @@
-On the given program lower to upper is already implemented. add lower to upper.
-Sample Input and output:
-Enter a letter: G
-Converted letter: g
+✅ 1. Letter Case Conversion (Upper to Lower and Lower to Upper)
+Description:
+Take an input character from the user. If it’s uppercase, convert it to lowercase. If it’s lowercase, convert it to uppercase. If it’s not a letter, leave it unchanged.
 
-Enter a letter: h
-Converted letter: H
+Input	Converted Output
+G	g
+h	H
+7	7
 
-Enter a letter: 7
-Converted letter: 7
+✅ 2. Odd or Even Detection Using TEST Instruction (Assembly context)
+Description:
+Take a character input. If it’s a number (0-9), determine if it’s even or odd using bitwise operations (typically in assembly, the TEST instruction is used to check bit values).
 
-Take an input character from user. Check it for number and find whether it is odd or even using TEST instruction.
-Input a hexadecimal number and set the lower 4 bits to 0. Display the result.
-Take two characters from user input. Use XOR to determine if they are equal. If they are equal, display “Equal”, otherwise “Not Equal”.
+Input	Check	Result
+3	Odd or Even	Odd
+6	Odd or Even	Even
+A	Not a number	Invalid
+
+✅ 3. Set Lower 4 Bits to 0 in a Hexadecimal Number
+Description:
+Input a hexadecimal number and clear the lower 4 bits using bitwise AND with 0xF0.
+
+Input (Hex)	Binary	Operation	Output (Hex)
+0xAB	10101011	0xAB & 0xF0 → AB & F0	0xA0
+0x3C	00111100	0x3C & 0xF0	0x30
+
+✅ 4. Compare Two Characters Using XOR
+Description:
+Take two characters and use XOR to check if they are equal.
+
+Char 1	Char 2	XOR Result	Output
+A	A	0	Equal
+a	A	≠ 0	Not Equal
+B	C	≠ 0	Not Equal
