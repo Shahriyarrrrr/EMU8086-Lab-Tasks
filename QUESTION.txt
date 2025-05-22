@@ -2,33 +2,38 @@
 Description:
 Take an input character from the user. If it’s uppercase, convert it to lowercase. If it’s lowercase, convert it to uppercase. If it’s not a letter, leave it unchanged.
 
-Input	Converted Output
-G	g
-h	H
-7	7
+| **Input** | **Converted Output** |
+| --------- | -------------------- |
+| G         | g                    |
+| h         | H                    |
+| 7         | 7                    |
 
 ✅ 2. Odd or Even Detection Using TEST Instruction (Assembly context)
 Description:
 Take a character input. If it’s a number (0-9), determine if it’s even or odd using bitwise operations (typically in assembly, the TEST instruction is used to check bit values).
 
-Input	Check	Result
-3	Odd or Even	Odd
-6	Odd or Even	Even
-A	Not a number	Invalid
+| **Input** | **Check**    | **Result** |
+| --------- | ------------ | ---------- |
+| 3         | Odd or Even  | Odd        |
+| 6         | Odd or Even  | Even       |
+| A         | Not a number | Invalid    |
 
 ✅ 3. Set Lower 4 Bits to 0 in a Hexadecimal Number
 Description:
 Input a hexadecimal number and clear the lower 4 bits using bitwise AND with 0xF0.
 
-Input (Hex)	Binary	Operation	Output (Hex)
-0xAB	10101011	0xAB & 0xF0 → AB & F0	0xA0
-0x3C	00111100	0x3C & 0xF0	0x30
+| **Input (Hex)** | **Binary** | **Operation**         | **Output (Hex)** |
+| --------------- | ---------- | --------------------- | ---------------- |
+| 0xAB            | 10101011   | 0xAB & 0xF0 → AB & F0 | 0xA0             |
+| 0x3C            | 00111100   | 0x3C & 0xF0           | 0x30             |
+
 
 ✅ 4. Compare Two Characters Using XOR
 Description:
-Take two characters and use XOR to check if they are equal.
+Take two characters and use XOR to check if they are equal
 
-Char 1	Char 2	XOR Result	Output
-A	A	0	Equal
-a	A	≠ 0	Not Equal
-B	C	≠ 0	Not Equal
+| **Char 1** | **Char 2** | **XOR Result** | **Output** |
+| ---------- | ---------- | -------------- | ---------- |
+| A          | A          | 0              | Equal      |
+| a          | A          | ≠ 0            | Not Equal  |
+| B          | C          | ≠ 0            | Not Equal  |
